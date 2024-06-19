@@ -1,0 +1,193 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.section1 {
+    width: 100%;
+    height: 100vh;
+    background-image: url("Homepage-Model-3-Desktop-LHD-v2.avif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0px;
+    position: relative;
+    z-index: 10;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav1 ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+
+}
+
+.nav1 ul li {
+    font-weight: normal;
+    margin: 0px 10px;
+    list-style: none;
+
+}
+
+.icons i {
+    margin: 10px;
+}
+
+.content {
+    text-align: center;
+}
+
+.btn {
+    text-align: center;
+    margin-top: 300px;
+}
+
+button {
+    border-radius: 5px;
+    border: none;
+    margin: 0px 20px;
+    padding: 10px 80px;
+}
+
+.demo {
+    color: white;
+    background-color: black;
+}
+
+.demo:hover {
+    background-color: rgb(74, 72, 72);
+}
+
+.section2 {
+    height: 100vh;
+    width: 100%;
+    background-image: url("Homepage-Model-Y-Desktop-Global.avif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    padding-top: 100px;
+}
+
+
+.section3 {
+    height: 100vh;
+    width: 100%;
+    background-image: url("Homepage-Model-X-Desktop-v2.avif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    padding-top: 100px;
+}
+
+
+.section4 {
+    height: 100vh;
+    width: 100%;
+    background-image: url("Homepage-Model-S-Desktop-v2.avif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    padding-top: 100px;
+}
+
+.section5 {
+    height: 100vh;
+    width: 100%;
+    background-image: url("Homepage-Cybertruck-Desktop.avif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.content1 svg {
+    height: 150px;
+    width: 300px;
+    margin-left: 500px;
+    margin-top: 40px;
+}
+
+.section5 .btn button {
+    border-top: 2px solid rgba(255, 255, 255, 0.445);
+    margin: 0px 20px;
+    padding: 10px 80px;
+    background-color: rgba(101, 100, 100, 0.225);
+    color: white;
+    cursor: pointer;
+}
+
+.section6 {
+    height: 100vh;
+    width: 100%;
+    background-image: url("Homepage-SolarRoof-Desktop-Global.avif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    padding-top: 100px;
+}
+
+.section7 {
+    height: 100vh;
+    width: 100%;
+    background-image: url("Homepage-Powerwall-01-Desktop.avif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    padding-top: 80px;
+}
+
+.section8 {
+    height: 100vh;
+    width: 100%;
+    background-image: url("Homepage-Accessories-Desktop-NA-APAC.avif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    padding-top: 100px;
+}
+
+.dropdown {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 100px 100px 50px;
+    background-color: #fff;
+    z-index: -1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transform: translateY(-100%);
+    transition: transform .6s linear;
+}
+
+.vehicle-row {
+    display: flex;
+}
+
+.list {
+    display: block;
+    padding: 20px;
+}
+
+.nav1 ul li:hover>.dropdown {
+    transform: translateY(0);
+}
+
+.vehicle-card {
+    border-right: 1px solid #363636;
+}
